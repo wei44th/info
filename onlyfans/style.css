@@ -1,0 +1,283 @@
+/* Style Settings */
+
+@import url('https://fonts.googleapis.com/css?family=Monseratt:400,700&display=swap');
+:root {
+	--font: 'Monseratt', 'Monseratt', sans-serif;
+}
+
+body {
+	background-color: #0e0e0f;
+	/* background-image: url("assets/bg.png"); */
+}
+
+.body {
+	align-items: center;
+	background-color: #0e0e0f;
+	max-width: 650px;
+	margin: auto;
+	border-radius: 10px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+#userPhoto {
+	width: 96px;
+	height: 96px;
+	display: block;
+	margin: 35px auto 20px;
+	border-radius: 4px;
+	/* -webkit-box-shadow: 0px 6px 0px 0px rgba(222, 218, 162, 1);
+	-moz-box-shadow: 0px 6px 0px 0px rgba(222, 218, 162, 1);
+	box-shadow: 0px 6px 0px 0px rgba(222, 218, 162, 1);
+	transition: all 0.15s; 
+}
+
+#userPhoto:hover {
+	box-shadow: 0px 8px rgba(222, 218, 162, 1);
+	transform: translateY(-2px); 
+}
+
+#userPhoto:active {
+	box-shadow: 0px 0px black;
+	transform: translateY(6px);*/
+}
+
+#userName {
+	color: white;
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 1.25;
+	display: block;
+	font-family: var(--font);
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+}
+
+#desc {
+	color: white;
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1.25;
+	display: block;
+	font-family: var(--font);
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	max-width: 525px;
+}
+
+#links {
+	max-width: 500px;
+	width: auto;
+	display: block;
+	margin: 27px auto;
+}
+
+@media only screen and (max-width: 700px) {
+	#links {
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+	.night_mode {
+		margin-right: 40%;
+	}
+}
+
+.link {
+	display: block;
+	background-color: #ff9c00;
+	color: #fff;
+	font-family: var(--font);
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 17px;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	transition: all 0.15s;
+	box-shadow: 0px 6px #cc7d00;
+}
+
+.link:hover {
+	/* background: #019489; */
+	box-shadow: 0px 8px #cc7d00;
+	transform: translateY(-2px);
+}
+
+.link:active {
+	transform: translateY(6px);
+	box-shadow: 0px 0px #007569;
+}
+
+#proker {
+	max-width: 300px;
+	width: auto;
+	display: grid;
+	margin: 27px auto;
+}
+
+.footer {
+	text-align: center;
+	font-size: 48px;
+	margin-top: 0px;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+.media {
+	/* background: #DD5A79; */
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	color: white;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	/* box-shadow: 0px 6px #9E4355; */
+	transition: all 0.15s;
+}
+
+.media:hover {
+	transform: translateY(-2px);
+}
+
+.media:active {
+	transform: translateY(6px);
+}
+
+.ig {
+	background: #E1306C;
+	box-shadow: 0px 6px #bb234f;
+}
+
+.ig:hover {
+	box-shadow: 0px 8px #bb234f;
+}
+
+.ig:active {
+	box-shadow: 0px 0px #bb234f;
+}
+
+.tg {
+	background: #0088cc;
+	box-shadow: 0px 6px #0063a1;
+}
+
+.tg:hover {
+	box-shadow: 0px 8px #0063a1;
+}
+
+.tg:active {
+	box-shadow: 0px 0px #0063a1;
+}
+
+.twtch {
+	background: #6441a5;
+	box-shadow: 0px 6px #492f7b;
+}
+
+.twtch:hover {
+	box-shadow: 0px 8px #492f7b;
+}
+
+.twtch:active {
+	box-shadow: 0px 0px #492f7b;
+}
+
+.sptfy {
+	background: #1DB954;
+	box-shadow: 0px 6px #158d3d;
+}
+
+.sptfy:hover {
+	box-shadow: 0px 8px #158d3d;
+}
+
+.sptfy:active {
+	box-shadow: 0px 0px #158d3d;
+}
+
+.steam {
+	background: #241f21;
+	box-shadow: 0px 6px #1a1718;
+}
+
+.steam:hover {
+	box-shadow: 0px 8px #1a1718;
+}
+
+.steam:active {
+	box-shadow: 0px 0px #1a1718;
+}
+
+.ds {
+	background: #7289DA;
+	box-shadow: 0px 6px #5364b2;
+}
+
+.ds:hover {
+	box-shadow: 0px 8px #5364b2;
+}
+
+.ds:active {
+	box-shadow: 0px 0px #5364b2;
+}
+
+.xb {
+	background: #107C10;
+	box-shadow: 0px 6px #0c5a0c;
+}
+
+.xb:hover {
+	box-shadow: 0px 8px #0c5a0c;
+}
+
+.xb:active {
+	box-shadow: 0px 0px #0c5a0c;
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+	font-family: var(--font);
+	font-weight: 500;
+	font-size: 12pt;
+	visibility: hidden;
+	width: 90px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 106%;
+	left: 50%;
+	margin-left: -45px;
+	opacity: 0;
+	transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 0.3s;
+  }
