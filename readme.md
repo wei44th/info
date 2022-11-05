@@ -1,2 +1,2 @@
 # visitka
-визитка с моими ссылками, стоит на [kartavkun.ml](kartavkun.ml)
+визитка с моими ссылками, стоит на [kartavkun.tk](kartavkun.tk)
